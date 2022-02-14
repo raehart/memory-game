@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import GameGrid from './components/GameGrid';
 
 function App() {
