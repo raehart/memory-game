@@ -5,5 +5,13 @@
   .c-card {
     height: 100%;
   }
+  .c-card__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ion-icon {
+    font-size: 9rem;
+  }
 }
   

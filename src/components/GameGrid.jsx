@@ -6,52 +6,52 @@ import './GameGrid.scss'
 
 let cards = [{
     id: 1,
-    value: "",
-    symbol: ""
+    value: "infinite1",
+    symbol: "infinite"
   },
   {
     id: 2,
-    value: "",
-    symbol: ""
+    value: "infinite2",
+    symbol: "infinite"
   },
   {
     id: 3,
-    value: "",
-    symbol: ""
+    value: "heart1",
+    symbol: "heart"
   },{
     id: 4,
-    value: "",
-    symbol: ""
+    value: "heart2",
+    symbol: "heart"
   },
   {
     id: 5,
-    value: "",
-    symbol: ""
+    value: "diamond1",
+    symbol: "diamond"
   },
   {
     id: 6,
-    value: "",
-    symbol: ""
+    value: "diamond2",
+    symbol: "diamond"
   },
   {
     id: 7,
-    value: "",
-    symbol: ""
+    value: "fish1",
+    symbol: "fish"
   },
   {
     id: 8,
-    value: "",
-    symbol: ""
+    value: "fish2",
+    symbol: "fish"
   },
   {
     id: 9,
-    value: "",
-    symbol: ""
+    value: "bug1",
+    symbol: "bug"
   },
   {
     id: 10,
-    value: "",
-    symbol: ""
+    value: "bug2",
+    symbol: "bug"
   },
   {
     id: 11,
