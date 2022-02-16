@@ -1,3 +1,5 @@
+@import '../styles/colors';
+
 .game-card {
   height: 12rem;
   width: 18rem;
@@ -10,6 +12,44 @@
     justify-content: center;
     align-items: center;
   }
+
+  // refactor into sass fucntion / map 
+  .color-blue {
+    ion-icon {
+      color: $blue;
+    }
+  }
+
+  .color-purple {
+    ion-icon {
+      color: $purple;
+    }
+  }
+
+  .color-pink {
+    ion-icon {
+      color: pink;
+    }
+  }
+
+  .color-green {
+    ion-icon {
+      color: $green;
+    }
+  }
+
+  .color-yellow {
+    ion-icon {
+      color: $yellow;
+    }
+  }
+
+  .color-red {
+    ion-icon {
+      color: red;
+    }
+  }
+
   ion-icon {
     font-size: 9rem;
   }

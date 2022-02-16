@@ -18,6 +18,7 @@ export default function GameCard(props) {
     if (enterOrSpace) {
       e.preventDefault();
       flipCard();
+      console.log(props);
     }
   };
 
@@ -41,8 +42,8 @@ export default function GameCard(props) {
        >
 
 
-        <div className="c-card__body">
-          <ion-icon name="infinite"></ion-icon>
+        <div className={`c-card__body color-${props.card.color}`}>
+          <ion-icon name={props.card.symbol}></ion-icon>
         </div>
       </div>
     )} 
